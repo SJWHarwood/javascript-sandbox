@@ -26,6 +26,7 @@ function loginUser(user) {
   return `The user ${user.name} has the id of ${user.id} is logged in`;
 }
 
+
 const user = {
   name: 'Simon',
   id: 1
