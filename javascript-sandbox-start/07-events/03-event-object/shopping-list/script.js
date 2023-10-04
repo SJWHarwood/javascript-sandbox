@@ -1,3 +1,16 @@
+const logo = document.querySelector('img');
+
+
+function onCLick (e) {
+console.log(e.target)
+e.target. style.backgroundColor = 'black';
+}
+
+
+logo.addEventListener('click', onCLick);
+
+document.body.addEventListener('click', )
+
 /*
 - `target` - The element that triggered the event
 - `currentTarget` - The element that the event listener is attached to (These are the same in this case
